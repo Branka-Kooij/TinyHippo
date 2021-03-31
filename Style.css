@@ -66,26 +66,30 @@ body{
 .Photo
 {
     grid-area:p;
-   text-align: center;
+    text-align: center;
     object-fit: cover
-    }
-.pic {
+ }
+       
+.pic 
+{
     width: 110px;
-    height: 100px
+    height: 100px;
     padding: 5px
-    
-}
+ }
 
 .main
+       
 {
     padding: 15px;
     grid-area: t;
     font-size: 16pt;
 }
+       
 .footer
-{
+   {
   grid-area: f;  
-    place-self:center}
+ place-self:center
+}
 
   
 
@@ -94,18 +98,19 @@ body{
 /*GALLERY*/
 
 
-.Gallery{
+.Gallery
+{
     margin:30px;
     text-align: center;
     justify-items: stretch;
     float: left;       
     background:#E2D4D1;
-    
-
+ }
+       
+.HeaderGallery
+ {
+    padding-right: 50px
 }
-       .HeaderGallery {
-           padding-right: 50px
-       }
 
      .HeaderGallery nav { 
          text-align: end;
