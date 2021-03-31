@@ -250,6 +250,7 @@ justify-self: center;
    background:  #cbbebc}
 }
 
+
 /*desktop*/
 @media only screen and ( min-width:1024px ){
 
@@ -352,10 +353,10 @@ place-self:center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr ;
     grid-template-rows: 9% 29% 34% 28% ;
     grid-template-areas: 
-        ". . . . l l l . . h h h"
-        ". . . . l l l . . h h h"
-        ". cf cf . . . . i i i i ."
-        ". cf cf . . . . i i i i .";
+        ". l l l l l l . . h h h"
+        ". l l l l l l . . h h h"
+        ". . cf cf . . i i i i . ."
+        ". . cf cf . . i i i i . .";
         
             background:#E2D4D1;
 
@@ -376,13 +377,12 @@ list-style: none}
 text-align: end;
     }
     
-  .ContactLogo p{
-        justify-self: center;
-        font-size: 28pt
-    }
+  
+    
 .ContactLogo{
     grid-area: l;
-    justify-self: center
+    justify-self: center;
+    font-size: 36pt
     
 }
 .ContactInfo{
@@ -409,7 +409,7 @@ display: inline;
 .ContactForm label{
     text-align: center;
     padding: 1px;
-    font-size: 16pt
+    font-size: 18pt
 }
 
 .Contact p{
@@ -420,7 +420,7 @@ text-align-last: center
 
 .ContactLogo img{
     border-radius: 100%;
-    width: 180px;
+    width: 200px;
     padding-top: 10px
 }
 .contactButton{
