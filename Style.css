@@ -35,7 +35,7 @@
    .menu {
      grid-area: m;
      font-size: 16pt;
-     text-align:left;
+     text-align: left;
    }
 
    .menu ul {
@@ -69,6 +69,10 @@
    }
 
    /*GALLERY*/
+   .ConatinerGallery {
+     background: #E2D4D1;
+   }
+
    .Gallery {
      margin: 30px;
      text-align: center;
