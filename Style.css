@@ -16,13 +16,13 @@ body{
     height: 100%;
     width: auto;
     grid-template-columns: 1fr  1fr 1fr 1fr ;
-    grid-template-rows: 17% 28% 25% 30% ;
+    grid-template-rows: 17% 28% 25% 35%  5%;
     grid-template-areas: 
         " h h  h h"
         " m  m m m"
         " p  p p p"
-        " t  t t t";
-        
+        " t  t t t"
+        ". . f . .";
         background:#E2D4D1;
     font-family:'Bhavuka', sans-seri;
     
