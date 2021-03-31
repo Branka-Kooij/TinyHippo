@@ -208,6 +208,10 @@ justify-self: end
         
     
 }
+       .ContactInfo a{
+           text-decoration: non;
+       }
+       
 .ContactForm{
     grid-area: cf;
 display: flex;
