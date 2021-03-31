@@ -36,7 +36,8 @@
    .menu {
      grid-area: m;
      font-size: 16pt;
-text-align: left;  }
+     text-align:left;
+   }
 
    .menu ul {
      list-style: none;
