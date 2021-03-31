@@ -36,8 +36,7 @@
    .menu {
      grid-area: m;
      font-size: 16pt;
-     justity-content:start;
-   }
+text-align: left;  }
 
    .menu ul {
      list-style: none;
