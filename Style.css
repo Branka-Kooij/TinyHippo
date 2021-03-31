@@ -67,9 +67,7 @@ body{
 .Photo
 {
     grid-area:p;
-   display: flex;
-       flex-direction: row;
-       
+   text-align: center;
     }
 .pic {
     width: 110px;
