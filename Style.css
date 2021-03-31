@@ -131,13 +131,12 @@
      height: 100%;
      width: 100%;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-template-rows: 10% 25% 13% 53%;
+     grid-template-rows: 10% 24% 13% 53%;
      grid-template-areas:
        "h h h h  "
        "l l l l  "
        "i i i i  "
-       "cf cf cf cf"
-     ;
+       "cf cf cf cf";
      background: #E2D4D1;
    }
 
