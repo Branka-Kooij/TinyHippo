@@ -209,7 +209,7 @@ justify-self: end
     
 }
        .ContactInfo a{
-           text-decoration: non;
+           text-decoration: none
        }
        
 .ContactForm{
