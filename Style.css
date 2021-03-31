@@ -166,10 +166,10 @@ background:#d1b3b5;
     height: 100%;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 10% 23% 13% 53% ;
+    grid-template-rows: 10% 25% 13% 53% ;
     grid-template-areas: 
         "h h h h  "
-        "l l l l "
+        "l l l l  "
         "i i i i  "
         "cf cf cf cf"
         ;
@@ -201,12 +201,12 @@ justify-self: end
 }
    . ContactLogo p{
         justify-self: center;
-       font-size: 20pt}
+       font-size: 1pt}
     
 .ContactInfo{
     text-align: center;
     grid-area: i;
-    font-size: 14pt
+    font-size: 13pt
         
     
 }
@@ -224,7 +224,7 @@ display: inline;
 }
 .ContactForm label {
     text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 .Contact p{
 text-align: center   
