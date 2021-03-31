@@ -36,6 +36,7 @@
    .menu {
      grid-area: m;
      font-size: 16pt;
+     justity-content:start;
    }
 
    .menu ul {
