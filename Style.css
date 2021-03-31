@@ -248,7 +248,7 @@ justify-self: center;
 /*desktop*/
 
 
-@media screen and ( min-width:960px )
+@media ( min-width:960px )
 {
     
     .Container {
