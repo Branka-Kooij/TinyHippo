@@ -282,7 +282,7 @@ justify-self: center;
      justify-self: start;
     
     }
-h1 {
+h2 {
     font-style: italic;
     font-size: 38pt;
     
@@ -445,9 +445,11 @@ text-align-last: center
 }
 .HeaderGallery{
     margin: 30px
+        
 }
     .HeaderGallery nav { 
-text-align: end
+text-align: end;
+        font-style: italic;
     }
 .HeaderGallery  h1 {
     text-align: center;
