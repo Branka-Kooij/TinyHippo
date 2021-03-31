@@ -1,0 +1,480 @@
+
+body{
+    margin: 15px;
+    font-family:'Bhavuka', sans-serif;
+    background: #f6f1f0;
+}
+
+@media  screen and (min-width:320px) 
+    
+    
+{
+.Container{
+    margin: auto;
+    display:grid;
+    height: 100%;
+    grid-template-columns: 1fr  1fr 1fr 1fr ;
+    grid-template-rows: 17% 23% 25% 30% 5%;
+    grid-template-areas: 
+        " h h  h h"
+        " m  m m m"
+        " p  p p p"
+        " t  t t t"
+        " f  f f f";
+        background:#E2D4D1;
+    font-family:'Bhavuka', sans-seri;
+    
+}
+    
+
+.Header
+{
+    grid-area: h;
+    justify-self: center;
+    font-style:italic;
+    text-align: center
+        
+    
+    }
+
+
+.logopic {
+    width: 150px;
+    padding: 5px;
+    border-radius: 60%;
+    margin: 20px
+    
+    
+}
+.menu
+{
+    grid-area: m;
+    font-size: 16pt;
+    
+
+}
+
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu a{
+        text-decoration: none
+    }
+    
+.Photo
+{
+    grid-area:p;
+   text-align: center;  }
+.pic {
+    width: 110px;
+    padding: 5px
+    
+}
+
+.main
+{
+    padding: 15px;
+    grid-area: t;
+    font-size: 16pt;
+}
+.footer
+{
+  grid-area: f;  
+    place-self:center}
+
+  
+
+
+
+/*GALLERY*/
+
+
+.Gallery{
+    margin:30px;
+    text-align: center;
+    justify-items: stretch;
+    float: left;       
+    background:#E2D4D1;
+    
+
+}
+
+     .HeaderGallery nav { 
+         text-align: end;}
+    
+.HeaderGallery  h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 36pt;
+    text-decoration: none;
+    margin:0
+
+    
+}
+.HeaderGallery a {
+    font-size: 16pt;
+    font-style: italic;
+    text-decoration: none;
+
+}
+.HeaderGallery ul{
+    list-style: none;
+
+}
+
+.Photos1{
+    margin-top: 50px;
+    
+}
+
+
+.Gpic:hover {
+background:#d1b3b5;    
+}
+.Gpic1{
+    height: auto;
+    border-radius: 100%;
+    justify-self: center;
+    object-fit: cover
+    
+    
+}
+.Gpic {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+        
+    
+}
+    /*CONTACR*/
+    
+.Contact{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 9% 25% 13% 53% ;
+    grid-template-areas: 
+        "h h h h  "
+        "l l l l "
+        "i i i i  "
+        "cf cf cf cf"
+        ;
+            background:#E2D4D1;
+
+}
+
+.HeaderContact{
+    grid-area: h;
+    font-size: 16pt;
+    text-align: end;
+    padding-right: 50px
+              
+
+}
+  .HeaderContact ul{
+
+list-style: none}
+    .HeaderContact a {
+        text-decoration: none;
+justify-self: end
+    }
+    
+.ContactLogo{
+    grid-area: l;
+    justify-self: center;
+        font-size: 18pt
+    
+}
+   . ContactLogo p{
+        justify-self: center;
+       font-size: 20pt}
+    
+.ContactInfo{
+    text-align: center;
+    grid-area: i;
+    font-size: 14pt
+        
+    
+}
+.ContactForm{
+    grid-area: cf;
+display: flex;
+    flex-direction: column;
+    justify-self: center
+}
+.Contact input{
+display: inline;
+        font-size: 12pt;
+
+   
+}
+.ContactForm label {
+    text-align: center;
+    font-size: 14pt;
+}
+.Contact p{
+text-align: center   
+}
+
+    
+
+.ContactLogo img{
+    border-radius: 100%;
+    width: 120px;
+}
+.contactButton{
+    font-size: 12px;
+    width: 90px;
+justify-self: center;
+   background:  #cbbebc}
+}
+  
+/*desktop*/
+
+
+@media screen and ( min-width:1024px )
+{
+    
+    .Container {
+    
+  width: 100%;
+        height: 100%;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 30% 23% 37% 10%;
+        grid-template-areas: 
+            "p p p . h h h h h . m m "
+            "p p p . h h h h h . m m"
+            "p p p t t t t t t t . ."
+            "p p p f f f f f f f . . ";
+        
+    grid-auto-flow: dense;
+    background:#E2D4D1;
+    
+}
+    
+    
+.Header
+{
+    
+    grid-area: h;
+     justify-self: start;
+    
+    }
+h1 {
+    font-style: italic;
+    font-size: 38pt;
+    
+    
+
+}
+.logopic {
+    width: 220px;
+    padding: 5px;
+    border-radius: 100%;
+    justify-self: stretch;
+
+        
+}
+.menu
+{
+    grid-area: m;
+    font-size: 20pt;
+    font-style: italic;
+    justify-self:start;
+    line-height: 1.6em;
+        
+
+}
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu a{
+        text-decoration: none
+    }
+.Photo
+{
+    grid-area:p;
+}
+    
+.pic {
+    padding-top: 30px;
+    width:200px;
+    
+    height: 220px;
+    object-fit: cover;
+    padding-bottom: 3px;
+    
+}
+    
+
+.main
+{ 
+    
+    grid-area: t;
+    font-size: 18pt;
+}
+.footer
+{
+  grid-area: f;  
+    font-size: 12pt;
+    
+place-self:center;
+}
+
+     /*CONTACR*/
+
+.Contact{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr ;
+    grid-template-rows: 9% 29% 34% 28% ;
+    grid-template-areas: 
+        ". . . . l l l . . h h h"
+        ". . . . l l l . . h h h"
+        ". cf cf . . . . i i i i ."
+        ". cf cf . . . . i i i i .";
+        
+            background:#E2D4D1;
+
+}
+
+.HeaderContact{
+    grid-area: h;
+    font-size: 20pt;
+              
+
+}
+  .HeaderContact ul{
+
+list-style: none}
+    
+    .HeaderContact a {
+        text-decoration: none;
+text-align: end;
+    }
+    
+  .ContactLogo p{
+        justify-self: center;
+        font-size: 28pt
+    }
+.ContactLogo{
+    grid-area: l;
+    justify-self: center
+    
+}
+.ContactInfo{
+    text-align: center;
+    grid-area: i;
+    font-size: 20pt;
+
+}
+    
+    
+.ContactForm{
+    grid-area:cf;
+display: flex;
+    flex-direction: column;
+    
+    
+}
+.Contact input{
+display: inline;
+    padding-bottom:1px
+
+
+}
+.ContactForm label{
+    text-align: center;
+    padding: 1px;
+    font-size: 16pt
+}
+
+.Contact p{
+text-align-last: center   
+}
+
+
+
+.ContactLogo img{
+    border-radius: 100%;
+    width: 180px;
+    padding-top: 10px
+}
+.contactButton{
+    font-size: 14px;
+    width: 100px;
+    background: #cbbebc;
+text-align-last: center
+}
+    
+    
+    
+/*GALLERY*/
+
+.Gallery{
+    margin:30px;
+    text-align: center;
+    justify-items: stretch;
+    float: left;       
+    background:#E2D4D1;
+    
+
+}
+.HeaderGallery{
+    margin: 30px
+}
+    .HeaderGallery nav { 
+text-align: end
+    }
+.HeaderGallery  h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 38pt;
+    text-decoration: none;
+    text-align: center
+
+    
+}
+.HeaderGallery a{
+    font-size: 20pt;
+    font-style: italic;
+    text-decoration: none;
+
+}
+.HeaderGallery nav{
+    text-align: end
+}
+.HeaderGallery ul{
+    list-style: none;
+}
+
+.Photos1{
+    margin-top: 50px;
+    
+}
+.Photos2{
+}
+.Gpic:hover {
+background:#b6888b;    
+}
+.Gpic1{
+    height: auto;
+    border-radius: 100%;
+    justify-self: center;
+    object-fit: cover
+    
+    
+}
+.Gpic {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+        
+    }
+
+}
