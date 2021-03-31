@@ -1,5 +1,5 @@
  
-/*
+
 body{
     margin: auto;
     font-family:'Bhavuka', sans-serif;
@@ -8,7 +8,7 @@ body{
 
 @media only screen (min-width 400px)
     
-   { */
+   { 
     
 
 .Container{
@@ -21,7 +21,7 @@ body{
         " h h  h h"
         " m  m m m"
         " p  p p p"
-        " t  t t t"
+        " t  t t t";
         
         background:#E2D4D1;
     font-family:'Bhavuka', sans-seri;
@@ -80,7 +80,7 @@ body{
     grid-area: t;
     font-size: 16pt;
 }
-.footer
+/*.footer
 {
   grid-area: f;  
     place-self:center}
