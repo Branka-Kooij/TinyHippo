@@ -80,7 +80,7 @@ body{
     grid-area: t;
     font-size: 16pt;
 }
-/*.footer
+.footer
 {
   grid-area: f;  
     place-self:center}
