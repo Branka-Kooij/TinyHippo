@@ -232,7 +232,12 @@ display: inline;
 text-align: center   
 }
 
-    
+       .MessaheArea{
+           text-align: center
+       }  
+       .MessaheArea textarea {
+width:250px           
+       }
 
 .ContactLogo img{
     border-radius: 100%;
