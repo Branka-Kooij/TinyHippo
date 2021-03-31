@@ -1,5 +1,5 @@
  body {
-   
+
    font-family: sans-serif;
    background: #f6f1f0;
  }
@@ -293,12 +293,13 @@
      height: 100%;
      width: 100%;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-     grid-template-rows: 9% 29% 34% 28%;
+     grid-template-rows: 9% 29% 34% 15% 13%;
      grid-template-areas:
        ". l l l l l l . . h h h"
        ". l l l l l l . . h h h"
        ". . cf cf . . i i i i . ."
-       ". . cf cf . . i i i i . .";
+       ". . cf cf . . i i i i . ."
+       " . . cf cf . . i i i i . .";
      background: #E2D4D1;
    }
 
