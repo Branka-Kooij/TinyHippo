@@ -1,26 +1,28 @@
+ 
 
 body{
-    margin: 15px;
+    margin: 20px;
     font-family:'Bhavuka', sans-serif;
     background: #f6f1f0;
 }
 
-@media  screen and (min-width:320px) 
+@media  (min-width:320px)
     
+   { 
     
-{
+
 .Container{
-    margin: auto;
     display:grid;
     height: 100%;
+   
     grid-template-columns: 1fr  1fr 1fr 1fr ;
-    grid-template-rows: 17% 23% 25% 30% 5%;
+    grid-template-rows: 23%  18% 18% 3o%  5%;
     grid-template-areas: 
         " h h  h h"
         " m  m m m"
         " p  p p p"
         " t  t t t"
-        " f  f f f";
+        ". f f  .";
         background:#E2D4D1;
     font-family:'Bhavuka', sans-seri;
     
@@ -65,9 +67,12 @@ body{
 .Photo
 {
     grid-area:p;
-   text-align: center;  }
+   text-align: center;
+    object-fit: cover
+    }
 .pic {
     width: 110px;
+    height: 100px
     padding: 5px
     
 }
@@ -99,27 +104,34 @@ body{
     
 
 }
+       .HeaderGallery {
+           padding-right: 50px
+       }
 
      .HeaderGallery nav { 
-         text-align: end;}
+         text-align: end;
+         
+      }
     
-.HeaderGallery  h1 {
+  h1 {
     text-align: center;
     font-style: italic;
     font-size: 36pt;
     text-decoration: none;
-    margin:0
+    
 
     
 }
 .HeaderGallery a {
-    font-size: 16pt;
+    font-size: 17pt;
     font-style: italic;
     text-decoration: none;
+    
 
 }
 .HeaderGallery ul{
     list-style: none;
+    padding-right:  20px
 
 }
 
@@ -141,7 +153,7 @@ background:#d1b3b5;
     
 }
 .Gpic {
-    width: 30%;
+    width: 20%;
     height: auto;
     padding: 5px;
         
@@ -154,10 +166,10 @@ background:#d1b3b5;
     height: 100%;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 9% 25% 13% 53% ;
+    grid-template-rows: 10% 25% 13% 53% ;
     grid-template-areas: 
         "h h h h  "
-        "l l l l "
+        "l l l l  "
         "i i i i  "
         "cf cf cf cf"
         ;
@@ -167,7 +179,7 @@ background:#d1b3b5;
 
 .HeaderContact{
     grid-area: h;
-    font-size: 16pt;
+    font-size: 15pt;
     text-align: end;
     padding-right: 50px
               
@@ -184,17 +196,17 @@ justify-self: end
 .ContactLogo{
     grid-area: l;
     justify-self: center;
-        font-size: 18pt
+        font-size: 20pt
     
 }
    . ContactLogo p{
         justify-self: center;
-       font-size: 20pt}
+       font-size: 1pt}
     
 .ContactInfo{
     text-align: center;
     grid-area: i;
-    font-size: 14pt
+    font-size: 13pt
         
     
 }
@@ -212,7 +224,7 @@ display: inline;
 }
 .ContactForm label {
     text-align: center;
-    font-size: 14pt;
+    font-size: 11pt;
 }
 .Contact p{
 text-align: center   
@@ -222,19 +234,21 @@ text-align: center
 
 .ContactLogo img{
     border-radius: 100%;
-    width: 120px;
+    width: 130px;
 }
 .contactButton{
-    font-size: 12px;
+    font-size: 14px;
     width: 90px;
 justify-self: center;
    background:  #cbbebc}
 }
-  
+
+
+}
 /*desktop*/
 
 
-@media screen and ( min-width:1024px )
+@media ( min-width:960px )
 {
     
     .Container {
@@ -471,7 +485,7 @@ background:#b6888b;
     
 }
 .Gpic {
-    width: 30%;
+    width: 20%;
     height: auto;
     padding: 5px;
         
