@@ -1,502 +1,425 @@
- 
-
-body{
-    margin: 20px;
-    font-family:sans-serif;
-    background: #f6f1f0;
-}
-
-@media  only screen and (min-width:320px )
-    
-   { 
-    
-
-.Container{
-    display:grid;
-    height: 100%;
-   
-    grid-template-columns: 1fr  1fr 1fr 1fr ;
-    grid-template-rows: 23%  18% 18% 3o%  5%;
-    grid-template-areas: 
-        " h h  h h"
-        " m  m m m"
-        " p  p p p"
-        " t  t t t"
-        ". f f  .";
-        background:#E2D4D1;
-    
-}
-    
-
-.Header
-{
-    grid-area: h;
-    justify-self: center;
-    font-style:italic;
-    text-align: center
-        
-    
-    }
-
-
-.logopic {
-    width: 150px;
-    padding: 5px;
-    border-radius: 60%;
-    margin: 20px
-    
-    
-}
-.menu
-{
-    grid-area: m;
-    font-size: 16pt;
-    
-
-}
-
-    .menu ul {
-        list-style: none;
-    }
-    
-    .menu a{
-        text-decoration: none
-    }
-    
-.Photo
-{
-    grid-area:p;
-    text-align: center;
-    object-fit: cover
- }
-       
-.pic 
-{
-    width: 110px;
-    
-    padding: 5px
+ body {
+   margin: 20px;
+   font-family: sans-serif;
+   background: #f6f1f0;
  }
 
-.main
-       
-{
-    padding: 15px;
-    grid-area: t;
-    font-size: 16pt;
-}
-       
-.footer
-   {
-  grid-area: f;  
- place-self:center
-}
+ @media only screen and (min-width:320px) {
+   .Container {
+     display: grid;
+     height: 100%;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 23% 18% 18% 30% 5%;
+     grid-template-areas:
+       " h h  h h"
+       " m  m m m"
+       " p  p p p"
+       " t  t t t"
+       ". f f  .";
+     background: #E2D4D1;
+   }
 
-  
+   .Header {
+     grid-area: h;
+     justify-self: center;
+     font-style: italic;
+     text-align: center
+   }
 
+   .logopic {
+     width: 150px;
+     padding: 5px;
+     border-radius: 60%;
+     margin: 20px
+   }
 
+   .menu {
+     grid-area: m;
+     font-size: 16pt;
+   }
 
-/*GALLERY*/
+   .menu ul {
+     list-style: none;
+   }
 
+   .menu a {
+     text-decoration: none
+   }
 
-.Gallery
-{
-    margin:30px;
-    text-align: center;
-    justify-items: stretch;
-    float: left;       
-    background:#E2D4D1;
+   .Photo {
+     grid-area: p;
+     text-align: center;
+     object-fit: cover
+   }
+
+   .pic {
+     width: 110px;
+     padding: 5px
+   }
+
+   .main {
+     padding: 15px;
+     grid-area: t;
+     font-size: 16pt;
+   }
+
+   .footer {
+     grid-area: f;
+     place-self: center
+   }
+
+   /*GALLERY*/
+   .Gallery {
+     margin: 30px;
+     text-align: center;
+     justify-items: stretch;
+     float: left;
+     background: #E2D4D1;
+   }
+
+   .HeaderGallery {
+     padding-right: 50px
+   }
+
+   .HeaderGallery nav {
+     text-align: end;
+   }
+
+   h1 {
+     text-align: center;
+     font-style: italic;
+     font-size: 36pt;
+     text-decoration: none;
+   }
+
+   .HeaderGallery a {
+     font-size: 17pt;
+     font-style: italic;
+     text-decoration: none;
+   }
+
+   .HeaderGallery ul {
+     list-style: none;
+     padding-right: 20px
+   }
+
+   .Photos1 {
+     margin-top: 50px;
+   }
+
+   .Gpic:hover {
+     background: #d1b3b5;
+   }
+
+   .Gpic1 {
+     height: auto;
+     border-radius: 100%;
+     justify-self: center;
+     object-fit: cover
+   }
+
+   .Gpic {
+     width: 20%;
+     height: auto;
+     padding: 5px;
+   }
+
+   /*CONTACR*/
+   .Contact {
+     display: grid;
+     height: 100%;
+     width: 100%;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 10% 25% 13% 53%;
+     grid-template-areas:
+       "h h h h  "
+       "l l l l  "
+       "i i i i  "
+       "cf cf cf cf"
+     ;
+     background: #E2D4D1;
+   }
+
+   .HeaderContact {
+     grid-area: h;
+     font-size: 15pt;
+     text-align: end;
+     padding-right: 50px
+   }
+
+   .HeaderContact ul {
+     list-style: none
+   }
+
+   .HeaderContact a {
+     text-decoration: none;
+     justify-self: end
+   }
+
+   .ContactLogo {
+     grid-area: l;
+     justify-self: center;
+     font-size: 17pt
+   }
+
+   .ContactInfo {
+     text-align: center;
+     grid-area: i;
+     font-size: 13pt
+   }
+
+   .ContactInfo a {
+     text-decoration: none
+   }
+
+   .ContactForm {
+     grid-area: cf;
+     display: flex;
+     flex-direction: column;
+     justify-self: center
+   }
+
+   .Contact input {
+     display: inline;
+     font-size: 10pt;
+   }
+
+   .ContactForm label {
+     text-align: center;
+     font-size: 11pt;
+   }
+
+   .Contact p {
+     text-align: center
+   }
+
+   .MessaheArea {
+     text-align: center
+   }
+
+   .MessaheArea textarea {
+     width: 250px
+   }
+
+   .ContactLogo img {
+     border-radius: 100%;
+     width: 130px;
+   }
+
+   .contactButton {
+     font-size: 14px;
+     width: 90px;
+     justify-self: center;
+     background: #cbbebc
+   }
  }
-       
-.HeaderGallery
- {
-    padding-right: 50px
-}
 
-     .HeaderGallery nav { 
-         text-align: end;
-         
-      }
-    
-  h1 {
-    text-align: center;
-    font-style: italic;
-    font-size: 36pt;
-    text-decoration: none;
-    
+ /*desktop*/
+ @media only screen and (min-width:1024px) {
+   .Container {
+     width: 100%;
+     height: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 30% 23% 37% 10%;
+     grid-template-areas:
+       "p p p . h h h h h . m m "
+       "p p p . h h h h h . m m"
+       "p p p t t t t t t t . ."
+       "p p p f f f f f f f . . ";
+     grid-auto-flow: dense;
+     background: #E2D4D1;
+   }
 
-    
-}
-.HeaderGallery a {
-    font-size: 17pt;
-    font-style: italic;
-    text-decoration: none;
-    
-
-}
-.HeaderGallery ul{
-    list-style: none;
-    padding-right:  20px
-
-}
-
-.Photos1{
-    margin-top: 50px;
-    
-}
-
-
-.Gpic:hover {
-background:#d1b3b5;    
-}
-.Gpic1{
-    height: auto;
-    border-radius: 100%;
-    justify-self: center;
-    object-fit: cover
-    
-    
-}
-.Gpic {
-    width: 20%;
-    height: auto;
-    padding: 5px;
-        
-    
-}
-    /*CONTACR*/
-    
-.Contact{
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 10% 25% 13% 53% ;
-    grid-template-areas: 
-        "h h h h  "
-        "l l l l  "
-        "i i i i  "
-        "cf cf cf cf"
-        ;
-            background:#E2D4D1;
-
-}
-
-.HeaderContact{
-    grid-area: h;
-    font-size: 15pt;
-    text-align: end;
-    padding-right: 50px
-              
-
-}
-  .HeaderContact ul{
-
-list-style: none}
-    .HeaderContact a {
-        text-decoration: none;
-justify-self: end
-    }
-    
-.ContactLogo{
-    grid-area: l;
-    justify-self: center;
-        font-size: 17pt
-    
-}
-   
-    
-.ContactInfo{
-    text-align: center;
-    grid-area: i;
-    font-size: 13pt
-        
-    
-}
-       .ContactInfo a{
-           text-decoration: none
-       }
-       
-.ContactForm{
-    grid-area: cf;
-display: flex;
-    flex-direction: column;
-    justify-self: center
-}
-.Contact input{
-display: inline;
-        font-size: 10pt;
-
-   
-}
-.ContactForm label {
-    text-align: center;
-    font-size: 11pt;
-}
-.Contact p{
-text-align: center   
-}
-
-       .MessaheArea{
-           text-align: center
-       }  
-       .MessaheArea textarea {
-width:250px           
-       }
-
-.ContactLogo img{
-    border-radius: 100%;
-    width: 130px;
-}
-.contactButton{
-    font-size: 14px;
-    width: 90px;
-justify-self: center;
-   background:  #cbbebc}
-}
-
-
-/*desktop*/
-@media only screen and ( min-width:1024px ){
-
-
-    
-    .Container {
-    
-  width: 100%;
-        height: 100%;
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 30% 23% 37% 10%;
-        grid-template-areas: 
-            "p p p . h h h h h . m m "
-            "p p p . h h h h h . m m"
-            "p p p t t t t t t t . ."
-            "p p p f f f f f f f . . ";
-        
-    grid-auto-flow: dense;
-    background:#E2D4D1;
-    
-}
-    
-    
-.Header
-{
-    
-    grid-area: h;
+   .Header {
+     grid-area: h;
      justify-self: start;
-    
-    }
-h2 {
-    font-style: italic;
-    font-size: 38pt;
-    
-    
+   }
 
-}
-.logopic {
-    width: 220px;
-    padding: 5px;
-    border-radius: 100%;
-    justify-self: stretch;
+   h2 {
+     font-style: italic;
+     font-size: 38pt;
+   }
 
-        
-}
-.menu
-{
-    grid-area: m;
-    font-size: 20pt;
-    font-style: italic;
-    justify-self:start;
-    line-height: 1.6em;
-        
+   .logopic {
+     width: 220px;
+     padding: 5px;
+     border-radius: 100%;
+     justify-self: stretch;
+   }
 
-}
-    .menu ul {
-        list-style: none;
-    }
-    
-    .menu a{
-        text-decoration: none
-    }
-.Photo
-{
-    grid-area:p;
-}
-    
-.pic {
-    padding-top: 30px;
-    width:200px;
-    
-    height: 220px;
-    object-fit: cover;
-    padding-bottom: 3px;
-    
-}
-    
+   .menu {
+     grid-area: m;
+     font-size: 20pt;
+     font-style: italic;
+     justify-self: start;
+     line-height: 1.6em;
+   }
 
-.main
-{ 
-    
-    grid-area: t;
-    font-size: 18pt;
-}
-.footer
-{
-  grid-area: f;  
-    font-size: 12pt;
-    
-place-self:center;
-}
+   .menu ul {
+     list-style: none;
+   }
 
-     /*CONTACR*/
+   .menu a {
+     text-decoration: none
+   }
 
-.Contact{
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr ;
-    grid-template-rows: 9% 29% 34% 28% ;
-    grid-template-areas: 
-        ". l l l l l l . . h h h"
-        ". l l l l l l . . h h h"
-        ". . cf cf . . i i i i . ."
-        ". . cf cf . . i i i i . .";
-        
-            background:#E2D4D1;
+   .Photo {
+     grid-area: p;
+   }
 
-}
+   .pic {
+     padding-top: 30px;
+     width: 200px;
+     height: 220px;
+     object-fit: cover;
+     padding-bottom: 3px;
+   }
 
-.HeaderContact{
-    grid-area: h;
-    font-size: 20pt;
-              
+   .main {
+     grid-area: t;
+     font-size: 18pt;
+   }
 
-}
-  .HeaderContact ul{
+   .footer {
+     grid-area: f;
+     font-size: 12pt;
+     place-self: center;
+   }
 
-list-style: none}
-    
-    .HeaderContact a {
-        text-decoration: none;
-text-align: end;
-    }
-    
-  
-    
-.ContactLogo{
-    grid-area: l;
-    justify-self: center;
-    font-size: 36pt
-    
-}
-.ContactInfo{
-    text-align: center;
-    grid-area: i;
-    font-size: 20pt;
+   /*CONTACR*/
+   .Contact {
+     display: grid;
+     height: 100%;
+     width: 100%;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 9% 29% 34% 28%;
+     grid-template-areas:
+       ". l l l l l l . . h h h"
+       ". l l l l l l . . h h h"
+       ". . cf cf . . i i i i . ."
+       ". . cf cf . . i i i i . .";
+     background: #E2D4D1;
+   }
 
-}
-    
-    
-.ContactForm{
-    grid-area:cf;
-display: flex;
-    flex-direction: column;
-    
-    
-}
-.Contact input{
-display: inline;
-    padding-bottom:1px
+   .HeaderContact {
+     grid-area: h;
+     font-size: 20pt;
+   }
 
+   .HeaderContact ul {
+     list-style: none
+   }
 
-}
-.ContactForm label{
-    text-align: center;
-    padding: 1px;
-    font-size: 18pt
-}
+   .HeaderContact a {
+     text-decoration: none;
+     text-align: end;
+   }
 
-.Contact p{
-text-align-last: center   
-}
+   .ContactLogo {
+     grid-area: l;
+     justify-self: center;
+     font-size: 36pt
+   }
 
+   .ContactInfo {
+     text-align: center;
+     grid-area: i;
+     font-size: 20pt;
+   }
 
+   .ContactForm {
+     grid-area: cf;
+     display: flex;
+     flex-direction: column;
+   }
 
-.ContactLogo img{
-    border-radius: 100%;
-    width: 200px;
-    padding-top: 10px
-}
-.contactButton{
-    font-size: 14px;
-    width: 100px;
-    background: #cbbebc;
-text-align-last: center
-}
-    
-    
-    
-/*GALLERY*/
+   .Contact input {
+     display: inline;
+     padding-bottom: 1px
+   }
 
-.Gallery{
-    margin:30px;
-    text-align: center;
-    justify-items: stretch;
-    float: left;       
-    background:#E2D4D1;
-    
+   .ContactForm label {
+     text-align: center;
+     padding: 1px;
+     font-size: 18pt
+   }
 
-}
-.HeaderGallery{
-    margin: 30px
-        
-}
-    .HeaderGallery nav { 
-text-align: end;
-        
-    }
-.HeaderGallery  h1 {
-    text-align: center;
-font-style: italic;
-    font-size: 38pt;
-    text-decoration: none;
-    text-align: center; 
-}
-.HeaderGallery a{
-    font-size: 20pt;
-    
-    text-decoration: none;
+   .Contact p {
+     text-align-last: center
+   }
 
-}
-.HeaderGallery nav{
-    text-align: end
-}
-.HeaderGallery ul{
-    list-style: none;
-}
+   .ContactLogo img {
+     border-radius: 100%;
+     width: 200px;
+     padding-top: 10px
+   }
 
-.Photos1{
-    margin-top: 50px;
-    
-}
-.Photos2{
-}
-.Gpic:hover {
-background:#b6888b;    
-}
-.Gpic1{
-    height: auto;
-    border-radius: 100%;
-    justify-self: center;
-    object-fit: cover
-    
-    
-}
-.Gpic {
-    width: 20%;
-    height: auto;
-    padding: 5px;
-        
-    }
+   .contactButton {
+     font-size: 14px;
+     width: 100px;
+     background: #cbbebc;
+     text-align-last: center
+   }
 
-}
+   /*GALLERY*/
+   .Gallery {
+     margin: 30px;
+     text-align: center;
+     justify-items: stretch;
+     float: left;
+     background: #E2D4D1;
+   }
+
+   .HeaderGallery {
+     margin: 30px
+   }
+
+   .HeaderGallery nav {
+     text-align: end;
+   }
+
+   .HeaderGallery h1 {
+     text-align: center;
+     font-style: italic;
+     font-size: 38pt;
+     text-decoration: none;
+     text-align: center;
+   }
+
+   .HeaderGallery a {
+     font-size: 20pt;
+     text-decoration: none;
+   }
+
+   .HeaderGallery nav {
+     text-align: end
+   }
+
+   .HeaderGallery ul {
+     list-style: none;
+   }
+
+   .Photos1 {
+     margin-top: 50px;
+   }
+
+   .Photos2 {}
+
+   .Gpic:hover {
+     background: #b6888b;
+   }
+
+   .Gpic1 {
+     height: auto;
+     border-radius: 100%;
+     justify-self: center;
+     object-fit: cover
+   }
+
+   .Gpic {
+     width: 20%;
+     height: auto;
+     padding: 5px;
+   }
+ }
