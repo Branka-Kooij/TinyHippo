@@ -448,7 +448,7 @@ text-align-last: center
 }
     .HeaderGallery nav { 
 text-align: end;
-        font-style: italic;
+        
     }
 .HeaderGallery  h1 {
     text-align: center;
@@ -459,7 +459,7 @@ font-style: italic;
 }
 .HeaderGallery a{
     font-size: 20pt;
-    font-style: italic;
+    
     text-decoration: none;
 
 }
