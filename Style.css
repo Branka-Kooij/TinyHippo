@@ -69,7 +69,8 @@ body{
     grid-area:p;
    display: flex;
        flex-direction: row;
-       justify-content:space-between}
+       
+    }
 .pic {
     width: 110px;
     height: 100px
