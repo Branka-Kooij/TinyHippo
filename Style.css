@@ -24,7 +24,6 @@ body{
         " t  t t t"
         ". f f  .";
         background:#E2D4D1;
-    font-family:'Bhavuka', sans-seri;
     
 }
     
@@ -456,10 +455,7 @@ text-align: end;
 font-style: italic;
     font-size: 38pt;
     text-decoration: none;
-    text-align: center;
-    font-family:'Bhavuka', sans-serif;
-
-    
+    text-align: center; 
 }
 .HeaderGallery a{
     font-size: 20pt;
