@@ -6,7 +6,7 @@ body{
     background: #f6f1f0;
 }
 
-@media  (min-width:320px and max-width:896px)
+@media  (min-width:320px and max-width:899px)
     
    { 
     
@@ -255,7 +255,7 @@ justify-self: center;
 /*desktop*/
 
 
-@media ( min-width:960px )
+@media ( min-width:900px )
 {
     
     .Container {
