@@ -184,7 +184,7 @@ justify-self: end
 .ContactLogo{
     grid-area: l;
     justify-self: center;
-        font-size: 18pt
+        font-size: 20pt
     
 }
    . ContactLogo p{
