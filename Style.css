@@ -1,9 +1,10 @@
-
-body{
-    margin: 15px;
+ body{
+    margin: 30px;
     font-family:'Bhavuka', sans-serif;
     background: #f6f1f0;
 }
+
+
 
 @media  screen and (min-width:320px) 
    { 
@@ -99,16 +100,21 @@ body{
     
 
 }
+       .HeaderGallery {
+           padding: 50px
+       }
 
      .HeaderGallery nav { 
-         text-align: end;}
+         text-align: end;
+         
+      }
     
-.HeaderGallery  h1 {
+  h1 {
     text-align: center;
     font-style: italic;
     font-size: 36pt;
     text-decoration: none;
-    margin:0
+    
 
     
 }
@@ -116,10 +122,12 @@ body{
     font-size: 16pt;
     font-style: italic;
     text-decoration: none;
+    
 
 }
 .HeaderGallery ul{
     list-style: none;
+    padding-right:  20px
 
 }
 
