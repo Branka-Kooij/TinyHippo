@@ -6,9 +6,9 @@ body{
 }
 
 @media  screen and (min-width:320px) 
+   { 
     
-    
-{
+
 .Container{
     margin: auto;
     display:grid;
@@ -230,7 +230,7 @@ text-align: center
 justify-self: center;
    background:  #cbbebc}
 }
-  
+
 /*desktop*/
 
 
