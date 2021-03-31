@@ -16,7 +16,7 @@ body{
     height: 100%;
    
     grid-template-columns: 1fr  1fr 1fr 1fr ;
-    grid-template-rows: 23%  20% 19% 30%  5%;
+    grid-template-rows: 23%  18% 18% 35%  5%;
     grid-template-areas: 
         " h h  h h"
         " m  m m m"
